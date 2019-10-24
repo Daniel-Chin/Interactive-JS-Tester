@@ -1,0 +1,30 @@
+{
+  "name": "@daniel.chin/interactivetester",
+  "version": "1.0.0",
+  "description": "Test the functions and objects you wrote in an interactive real-time terminal, analogous to `IPython.embed()`. ",
+  "main": "./lib/interactiveTester.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./lib/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Chin/Interactive-JS-Tester.git"
+  },
+  "keywords": [
+    "testing",
+    "interactive",
+    "vm",
+    "embed",
+    "context",
+    "shell"
+  ],
+  "author": "Daniel Chin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Chin/Interactive-JS-Tester/issues"
+  },
+  "homepage": "https://github.com/Daniel-Chin/Interactive-JS-Tester#readme"
+}
