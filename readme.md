@@ -41,7 +41,7 @@ hello, Stanley
 If not in strict mode, it is tempting to use a short hand  
 ```js
 {
-  ...function(){return this;}(), 
+  ...(function(){return this;})(), 
 }
 ```
 as the context object. However, that doesn't work, because `console` and many other global variables are not in the unspreaded object.  
