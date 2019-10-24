@@ -35,3 +35,14 @@ hello, Stanley
 ## Notice
 * Pressing Ctrl-C ONLY ONCE will quit the script. Be careful.  
 * We do not support "hot reload" yet. After you modify your script, please run your script again to see the changes.  
+
+## Discussion
+### Possible shorthand? 
+If not in strict mode, it is tempting to use a short hand  
+```js
+{
+  ...function(){return this;}(), 
+}
+```
+as the context object. However, that doesn't work, because `console` and many other global variables are not in the unspreaded object.  
+Is there a way to make this work? If you know, please submit a request!  
