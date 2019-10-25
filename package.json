@@ -1,6 +1,6 @@
 {
   "name": "@daniel.chin/interactivetester",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Test the functions and objects you wrote in an interactive real-time terminal, analogous to `IPython.embed()`. ",
   "main": "./lib/interactiveTester.js",
   "directories": {
