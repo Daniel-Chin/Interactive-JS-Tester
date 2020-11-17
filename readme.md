@@ -1,6 +1,8 @@
 # Interactive JS Tester
 Test the functions and objects you wrote in a real-time terminal shell, analogous to `IPython.embed()`.  
 
+NPM page: https://www.npmjs.com/package/@daniel.chin/interactivetester  
+
 ## Example
 Suppose this is the code you want to test: 
 ```js
